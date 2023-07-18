@@ -6,7 +6,7 @@ import { request } from './request';
 
 // const API_HOST = 'http://localhost:5001/spotify-lyrics-ef482/us-central1';
 const API_HOST =
-  'https://files.xianqiao.wang/https://us-central1-spotify-lyrics-ef482.cloudfunctions.net';
+  'https://us-central1-spotify-lyrics-ef482.cloudfunctions.net';
 
 async function fetchData(
   pathname: string,

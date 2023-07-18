@@ -23,7 +23,7 @@ async function getConfig() {
   if (isProd) {
     try {
       result = await request(
-        `https://raw.githubusercontent.com/mantou132/Spotify-Lyrics/master/src/page/config.json?t=${Date.now()}`,
+        `https://raw.githubusercontent.com/wincss/Spotify-Lyrics/master/src/page/config.json?t=${Date.now()}`,
       );
     } catch {}
   }
